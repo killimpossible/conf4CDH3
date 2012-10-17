@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<allocations>
+    <pool name="root">
+        <minMaps>10</minMaps>
+        <minReduces>5</minReduces>
+    </pool>
+    <user name="root">
+        <maxRunningJobs>16</maxRunningJobs>
+    </user>
+
+    <user name="hive">
+        <maxRunningJobs>64</maxRunningJobs>
+    </user>
+
+    <userMaxJobsDefault>16</userMaxJobsDefault> 
+</allocations>
